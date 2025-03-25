@@ -49,11 +49,11 @@ for (item in obj) {
 
 
 //methods of objects
-//1. Object.keys(object) = returns keys of that object
+//1. Object.keys(object) = returns keys of that object in array   [ 'name', 'age' ]
 console.log(Object.keys(obj))
 
-//2. Object.values(object) = returns values of that object
+//2. Object.values(object) = returns values of that object in array   [ 'raju', 22 ]
 console.log(Object.values(obj))
 
-//3. Object.entries(obj) = returns total [key, value] pair
+//3. Object.entries(obj) = returns total key-value pair in array [ [ 'name', 'raju' ], [ 'age', 22 ] ]
 console.log(Object.entries(obj))
