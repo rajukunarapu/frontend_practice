@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .background {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            background-image: url('/spiderman.jpg');
+            background-size: cover;
+            filter: brightness(30%);
+            z-index: -1;
+        }
+
+        .container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+        .card {
+            border: 2px solid lightgray;
+            padding: 10px;
+            width: 400px;
+            border-radius: 20px;
+            box-shadow: 0 0 5px 0 yellow;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image-container {
+            width: 200px;
+            height: 210px;
+            background-size: cover;
+            border-radius: 15px;
+            cursor: pointer;
+            box-shadow: 0 0 10px 0 lightgray;
+        }
+
+        article h1 {
+            color: rgb(from blue r g b);
+        }
+
+        article h1 span {
+            color: red;
+        }
+
+        article p {
+            margin-top: 10px;
+            color: white;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 10px 25px;
+            border-radius: 25px;
+            border: 2px solid aqua;
+            background-color: blue;
+            font-weight: bolder;
+            cursor: pointer;
+            color: white;
+            box-shadow: 0 0 5px 0 greenyellow;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="background">
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <img src="/amazing_spiderman1.webp" alt="spiderman" class="image-container">
+                <article class="article">
+                    <h1><span>SPIDER</span>-MAN</h1>
+                    <p>Spider-Man is a superhero in American comic books published by Marvel Comics. Created by
+                        writer-editor
+                        Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing
+                        Fantasy
+                        #15
+                        in
+                        the Silver Age of Comic Books.</p>
+                </article>
+            </div>
+            <button class="btn">More..</button>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <img src="/amazing_spiderman2.webp" alt="spiderman" class="image-container">
+                <article class="article">
+                    <h1><span>SPIDER</span>-MAN</h1>
+                    <p>Spider-Man is a superhero in American comic books published by Marvel Comics. Created by
+                        writer-editor
+                        Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing
+                        Fantasy
+                        #15
+                        in
+                        the Silver Age of Comic Books.</p>
+                </article>
+            </div>
+            <button class="btn">More..</button>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <img src="/amazing_spiderman3.webp" alt="spiderman" class="image-container">
+                <article class="article">
+                    <h1><span>SPIDER</span>-MAN</h1>
+                    <p>Spider-Man is a superhero in American comic books published by Marvel Comics. Created by
+                        writer-editor
+                        Stan Lee and artist Steve Ditko, he first appeared in the anthology comic book Amazing
+                        Fantasy
+                        #15
+                        in
+                        the Silver Age of Comic Books.</p>
+                </article>
+            </div>
+            <button class="btn">More..</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

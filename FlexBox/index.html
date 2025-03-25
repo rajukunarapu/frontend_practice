@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: space-around;
+            align-items: flex-end;
+            max-width: 90%;
+            min-height: 700px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        .Item {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bolder;
+            color: red;
+        }
+
+        .div-1 {
+            order: 4;
+            flex-grow: 1;
+
+        }
+
+        .div-2 {
+            order: 5;
+        }
+
+        .div-3 {
+            order: 6;
+        }
+
+        .div-4 {
+            order: 3;
+        }
+
+        .div-5 {
+            order: 1;
+        }
+
+        .div-6 {
+            order: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Item div-1">Item-1</div>
+        <div class="Item div-2">Item-2</div>
+        <div class="Item div-3">Item-3</div>
+        <div class="Item div-4">Item-4</div>
+        <div class="Item div-5">Item-5</div>
+        <div class="Item div-6">Item-6</div>
+    </div>
+</body>
+
+</html>

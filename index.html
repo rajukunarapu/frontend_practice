@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            cursor: pointer;
+        }
+
+        h1:hover {
+            color: red;
+        }
+
+        h1:focus {
+            color: chartreuse;
+        }
+
+        h1::first-letter {
+            font-size: larger;
+            font-weight: bolder;
+            color: blue;
+        }
+
+        h1::before {
+            content: "$";
+            /* color: blueviolet !important; */
+        }
+
+        #heading::after {
+            content: "@";
+            color: green;
+        }
+
+        h1::first-line {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- <form onsubmit="handleSubmitPrevent(event)">
+        <div>
+            <label>Name :</label>
+            <input type="text" placeholder="Enter your name...">
+        </div>
+
+        <div>
+            <label>EmailId :</label>
+            <input type="email" placeholder="Enter your EmailId">
+        </div>
+
+        <div>
+            <label>Password :</label>
+            <input type="password" placeholder="Enter your password">
+        </div>
+
+        <input type="submit" value="continue">
+    </form>
+
+    <p contenteditable="true">Click and edit this text!</p>
+
+    <script>
+        function handleSubmitPrevent(event) {
+            event.preventDefault()
+        }
+    </script> -->
+
+    <!-- <div>
+        <audio controls>
+            <source type="audio/mp3" src="/[iSongs.info] 01 - Kannullona.mp3">
+        </audio>
+    </div>
+
+    <div>
+        <video controls autoplay width="500px" height="500px">
+            <source type="video/mp4" src="/Chaleya - Jawan_HD_720p-(Hd9video).mp4">
+        </video>
+    </div> -->
+
+    <h1 id="heading">This is a paragraph</h1>
+
+
+
+
+</body>
+
+</html>
