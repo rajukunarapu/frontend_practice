@@ -52,5 +52,16 @@ console.log(Boolean(1))   // true
 console.log(Boolean(undefined))  // false
 console.log(Boolean(null))  // false
 
-console.log(JSON.stringify({ name: "raju", age: 20 }))
+
+//1. JSON.stringify(object) - takes js object ans converts to JSON object
+let variable = JSON.stringify({ name: "raju", age: 20 })
+console.log(variable) //  converts to json {"name":"raju","age":20}
+
+//2. JSON.parse(json_object)  - takes json object and converts to js object
+console.log(JSON.parse(variable))
+
+//3. .json() - This is mainly used in fecth() API call and it returns the promise and that's why we use async await or .then()
+
+
+
 
