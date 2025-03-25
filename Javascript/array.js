@@ -52,3 +52,17 @@ let sum = arr1.reduce((acc, item) => {
     return item * acc
 }, 1)
 console.log(sum)
+
+// find - It retuns the first item that's met the condition
+let arr_1 = [1, 2, 3, 4, 5, 6, 7]
+let finding_even = arr1.find((item) => item % 2 == 0)
+console.log(finding_even)
+
+// some - It returns true if any one of the item is met condition
+let find_even = arr_1.some((item) => item % 2 == 0)
+console.log(find_even)
+
+// every - It returns true if all items meet the condition
+let student_marks = [38, 41, 57, 71, 68]
+let student_result = student_marks.every((item) => item > 36)
+console.log(student_result)
