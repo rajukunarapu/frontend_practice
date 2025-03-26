@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1 class="heading-1">This is a heading</h1>
+    </div>
+
+    <script>
+        let div1 = document.getElementById('container')
+        div1.style.backgroundColor = "red"
+        div1.setAttribute('class', "c1")
+        div1.classList.add('c2', 'c3', 'c4')
+        div1.classList.remove('c2', 'c3',)
+        div1.classList.toggle()
+        console.log(div1.getAttribute('class'))
+    </script>
+</body>
+
+</html>
