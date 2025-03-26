@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // console.log(num1)
+        // var num1 = 10;
+        // let num2 = 20;
+        // const num3 = 30;
+        // {
+        //     var x1 = 100;
+        //     let x2 = 200;
+        //     const x3 = 300;
+        //     console.log(x1)
+        //     console.log(x2)
+        //     console.log(x3)
+        // }
+        // console.log(x1)
+        // // console.log(x2) // let, const are block scope and can't be accessed outside of block
+        // // console.log(x3)  // 
+        function my_function() {
+
+            var y1 = 1000;
+            let y2 = 2000;
+            const y3 = 3000;
+            console.log(y1)
+            console.log(y2)
+            console.log(y3)
+
+            function inner() {
+                console.log(y1)
+                console.log(y2)
+                console.log(y3)
+            }
+            inner()
+
+        }
+        my_function()
+    </script>
+</body>
+
+</html>
